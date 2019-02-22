@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_content.php" source-language="en">
+    <body>
+      <trans-unit id="tl_content.card_legend">
+        <source>Card settings</source>
+      </trans-unit>
+      <trans-unit id="tl_content.cardTitle.0">
+        <source>Card title</source>
+      </trans-unit>
+      <trans-unit id="tl_content.cardTitle.1">
+        <source>Here you can enter the title of the card.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.cardSubtitle.0">
+        <source>Card subtitle</source>
+      </trans-unit>
+      <trans-unit id="tl_content.cardSubtitle.1">
+        <source>Here you can enter the subtitle of the card.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.cardContent.0">
+        <source>Content</source>
+      </trans-unit>
+      <trans-unit id="tl_content.cardContent.1">
+        <source>Here you can enter the content of the card.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.cardFooterLeft.0">
+        <source>Footer text (left side)</source>
+      </trans-unit>
+      <trans-unit id="tl_content.cardFooterLeft.1">
+        <source>Here you can enter the footer text on the left side.</source>
+      </trans-unit>
+      <trans-unit id="tl_content.cardFooterRight.0">
+        <source>Footer text (right side)</source>
+      </trans-unit>
+      <trans-unit id="tl_content.cardFooterRight.1">
+        <source>Here you can enter the footer text on the right side.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
