@@ -88,7 +88,7 @@ class ContentCard extends Contao\ContentElement
         // Override the link target
         $this->Template->target = '';
         if ($this->target) {
-            $this->Template->target = ' target="_blank"';
+            $this->Template->target = ' target="_blank" rel="noopener"';
         }
 
         // Unset the title attributes in the back end (see #6258)
