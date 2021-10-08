@@ -1,5 +1,5 @@
 <?php if(!empty($this->href)): ?>
-  <a href="<?= $this->href ?>"<?php if(!empty($this->linkTitle)) echo 'title="' . $this->linkTitle . '"'; ?><?= $this->target ?>>
+  <a href="<?= $this->href ?>"<?php if(!empty($this->linkTitle)) echo ' title="' . $this->linkTitle . '"'; ?><?= $this->target ?>>
 <?php endif; ?>
 
 <div>
