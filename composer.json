@@ -1,0 +1,41 @@
+{
+  "name": "exotelis/contao-card",
+  "description": "Adds a content element card",
+  "type": "contao-bundle",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Sebastian Krah",
+      "email": "exotelis@mailbox.org",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Exotelis/contao-card/issues",
+    "source": "https://github.com/Exotelis/contao-card"
+  },
+  "require": {
+    "php": "^7.0",
+    "contao/core-bundle": "^4.4"
+  },
+  "require-dev": {
+    "contao/manager-plugin": "^2.3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Exotelis\\CardBundle\\": "src/"
+    },
+    "classmap": [
+      "src/Resources/contao/"
+    ],
+    "exclude-from-classmap": [
+      "src/Resources/contao/config/",
+      "src/Resources/contao/dca/",
+      "src/Resources/contao/languages/",
+      "src/Resources/contao/templates/"
+    ]
+  },
+  "extra": {
+    "contao-manager-plugin": "Exotelis\\CardBundle\\ContaoManager\\Plugin"
+  }
+}

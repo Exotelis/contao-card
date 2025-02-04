@@ -1,0 +1,36 @@
+<?php if(!empty($this->href)): ?>
+  <a href="<?= $this->href ?>"<?php if(!empty($this->linkTitle)) echo 'title="' . $this->linkTitle . '"'; ?><?= $this->target ?>>
+<?php endif; ?>
+
+<div>
+  <?php if($this->addImage): ?>
+    <div>
+      <img src="<?= $this->singleSRC ?>">
+    </div>
+  <?php endif; ?>
+  <div>
+    <div><?= $this->title ?></div>
+    <?php if(!empty($this->subtitle)): ?>
+      <div>
+        <?= $this->subtitle ?>
+      </div>
+    <?php endif; ?>
+    <div>
+      <?= $this->text ?>
+    </div>
+  </div>
+  <?php if(!empty($this->footerleft) || !empty($this->footerright)): ?>
+    <div>
+      <span style="float: left;">
+        <?= $this->footerleft ?>
+      </span>
+      <span style="float: right;">
+        <?= $this->footerright ?>
+      </span>
+    </div>
+  <?php endif; ?>
+</div>
+
+<?php if(!empty($this->href)): ?>
+  </a>
+<?php endif; ?>

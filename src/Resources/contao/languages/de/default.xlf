@@ -1,0 +1,14 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/default.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="CTE.card.0">
+        <source>Card</source>
+        <target>Card</target>
+      </trans-unit>
+      <trans-unit id="CTE.card.1">
+        <source>Generates HTML layout for a card component.</source>
+        <target>Erzeugt HTML-Layout für eine Card-Komponente.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
