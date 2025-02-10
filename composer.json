@@ -15,7 +15,7 @@
     "source": "https://github.com/Exotelis/contao-card"
   },
   "require": {
-    "php": "^7.0",
+    "php": "^7.0 || ^8.0",
     "contao/core-bundle": "^4.4"
   },
   "require-dev": {
